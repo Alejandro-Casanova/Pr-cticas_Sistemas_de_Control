@@ -14,3 +14,6 @@ Para ello, se debe:
 - La selección se realizará por torneo: definir el valor de T
 - Especificar el número de generaciones del algoritmo genético
 - Especificar los ratios de mutación y cruce del algoritmo genético
+
+### 3. Práctica en ROS
+El algoritmo genético de la práctica anterior debe estar integrado en un paquete de ROS2. En dicho paquete se debe definir un nodo, en el cual implementará dicho algoritmo. Para cada miembro de la población se debe hacer una llamada de servicio al nodo que simula el controlador y el motor, que responderá con los índices de rendimiento de la respuesta. Con dichos índices se calculará el fitness de ese individuo, que luego se utilizará como parámetro del algoritmos genético.
