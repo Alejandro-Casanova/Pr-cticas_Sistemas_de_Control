@@ -1,0 +1,11 @@
+# Archivo sim_pid.srv
+
+float32 kp
+float32 ki
+float32 kd
+
+---
+float32 overshoot
+float32 d
+float32 ess
+float32 ts
